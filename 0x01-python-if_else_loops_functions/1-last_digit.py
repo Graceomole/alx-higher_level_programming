@@ -13,4 +13,3 @@ elif lastdigit > 5:
           .format(number, lastdigit))
 else:
     print("Last digit of {} is {} and is 0".format(number, lastdigit))
- 
