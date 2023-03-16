@@ -1,4 +1,5 @@
 #!/usr/bin/node
-for (const line of ['C is fun', 'Python is cool', 'Javascript is amazing']) {
-  console.log(line);
-}
+const args = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+args.forEach((val, index) => {
+  console.log(val);
+});
